@@ -9,5 +9,5 @@ const port = 3000;
 app.use(bodyParser.json());
 
 app.listen(port, () => {
-  console.log(`Server starting at the http://localhost:${port}`);
+    console.log(`Server starting at the http://localhost:${port}`);
 });
